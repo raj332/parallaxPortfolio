@@ -1,0 +1,76 @@
+#profile {
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 5rem;
+}
+
+#profile>#pic {
+    height: 50rem;
+    width: 45rem;
+    background-image: url("../../img/profile.jpg");
+    background-size: cover;
+    margin-top: 2rem;
+}
+
+#titles-1 {
+    font-weight: bolder;
+    font-size: 3.2rem;
+    color: rgb(255, 255, 255);
+    margin: 2rem 0rem;
+}
+#about-box {
+    margin: 1rem;
+    width: 55rem;
+    text-align: justify;
+    padding: 2rem;
+    margin: 1rem;
+    color: rgba(255, 255, 255, 0.623);
+    font-size: 1.5rem;
+}
+
+#skills {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1.5rem 0rem;
+}
+
+.skill-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar {
+    height: 1rem;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.171);
+    margin: 1.5rem 0rem;
+    overflow: hidden;
+}
+
+#htmlline {
+    height: 1rem;
+    background-color: crimson;
+    width: 85%;
+}
+
+#jsline {
+    height: 1rem;
+    background-color: crimson;
+    width: 65%
+}
+
+#phpline {
+    height: 1rem;
+    background-color: crimson;
+    width: 80%
+}
+
+#cppline {
+    height: 1rem;
+    background-color: crimson;
+    width: 60%
+}

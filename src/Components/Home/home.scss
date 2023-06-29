@@ -1,0 +1,64 @@
+#poster{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 5rem;
+
+    #upper {
+        font-family: times;
+        font-size: 6rem;
+        color: rgba(7, 7, 7, 0.719);
+    }
+    
+    #middle {
+        color: rgba(0, 0, 0, 0.774);
+        font-size: 8rem;
+        font-family: verdana;
+        font-weight: 700;
+    }
+    
+    #lower {
+        color: rgba(0, 0, 0, 0.596);
+        font-family: tahoma;
+        font-size: 2rem;
+        font-weight: 50;
+    }
+    
+    #poster-left {
+        height: 100%;
+        display: flex;
+        width:50%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #poster-right {
+        position: relative;
+        height:100%;
+        width:50%;
+        
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    #right-box1 {
+        height: 100%;
+        width: 100%;
+        background-color: crimson;
+        position: relative;
+    }
+
+    
+    #right-box2 {
+        height: 50rem;
+        width: 40rem;
+        background-image: url('../../img/homePic.jpg');
+        background-size: cover;
+        position: absolute;
+        border-radius: 2rem;
+    
+    }
+}

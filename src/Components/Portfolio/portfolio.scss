@@ -1,0 +1,45 @@
+#portfolio {
+    margin: 10rem 0rem;
+    
+    .work-box {
+        color: white;
+        font-size: 2rem;
+        height: 20rem;
+        overflow-y: hidden;
+        position: relative;
+        width: 35rem;
+        margin: 2rem;
+        border-radius: 1rem;
+        align-items: center;
+        background: linear-gradient( rgba(0, 0, 0, 0.803), rgba(0, 0, 0, 0.764));
+        img{
+        filter: brightness(50%) ;
+    
+        width: 100%;
+        }
+    }
+    
+    .work-box:hover {
+        transform: scale(1.1);
+    }
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.titles {
+    font-weight: bolder;
+    font-size: 3.2rem;
+    color: black;
+    margin: 5rem;
+    text-align: center;
+}
